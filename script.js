@@ -9,10 +9,10 @@ const perguntas = [
         enunciado: "O desmatamento na Amazônia está intrinsecamente ligado à violência, especialmente em relação aos povos indígenas e comunidades tradicionais. A expansão ilegal de atividades como a pecuária, agricultura e mineração, muitas vezes ligada ao crime organizado, resulta na invasão de terras, destruição de modos de vida e conflitos. O que você pensa sobre isso?
 ",
         alternativas: [
-            "Isso é assustador!"
-            "não tenho opnião sobre isso!"
+            "Isso é assustador."
+            "não tenho opnião sobre isso."
         ]
-    }
+    },
     {
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
         alternativas: [
