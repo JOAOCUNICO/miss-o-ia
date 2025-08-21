@@ -6,10 +6,11 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "O desmatamento na Amazônia está intrinsecamente ligado à violência, especialmente em relação aos povos indígenas e comunidades tradicionais. A expansão ilegal de atividades como a pecuária, agricultura e mineração, muitas vezes ligada ao crime organizado, resulta na invasão de terras, destruição de modos de vida e conflitos. O que você pensa sobre isso?
+",
         alternativas: [
             "Isso é assustador!",
-            "Isso é maravilhoso!"
+            "não tenho opnião sobre isso!"
         ]
     },
     {
