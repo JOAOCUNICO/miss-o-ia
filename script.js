@@ -6,10 +6,9 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "O desmatamento na Amazônia está intrinsecamente ligado à violência, especialmente em relação aos povos indígenas e comunidades tradicionais. A expansão ilegal de atividades como a pecuária, agricultura e mineração, muitas vezes ligada ao crime organizado, resulta na invasão de terras, destruição de modos de vida e conflitos. O que você pensa sobre isso?
-",
+        enunciado: "O desmatamento na Amazônia está intrinsecamente ligado à violência, especialmente em relação aos povos indígenas e comunidades tradicionais. A expansão ilegal de atividades como a pecuária, agricultura e mineração, muitas vezes ligada ao crime organizado, resulta na invasão de terras, destruição de modos de vida e conflitos. O que você pensa sobre isso?",
         alternativas: [
-            "Isso é assustador."
+            "Isso é assustador.",
             "não tenho opnião sobre isso."
         ]
     },
