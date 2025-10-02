@@ -7,15 +7,8 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado: "O desmatamento na Amazônia está intrinsecamente ligado à violência, especialmente em relação aos povos indígenas e comunidades tradicionais. A expansão ilegal de atividades como a pecuária, agricultura e mineração, muitas vezes ligada ao crime organizado, resulta na invasão de terras, destruição de modos de vida e conflitos. O que você pensa sobre isso?",
+
         alternativas: [
-            "Isso é assustador.",
-            "não tenho opnião sobre isso."
-        ]
-    },
-  
-    {
-        enunciado: "Considerando essas ações, qual delas você acredita que pode gerar o maior impacto imediato na proteção da Amazônia?",
-        alternativas: 
             {
                 texto: "Isso é assustador!",
                 afirmacao: "afirmação"
@@ -24,10 +17,10 @@ const perguntas = [
                 texto: "Isso é maravilhoso!",
                 afirmacao: "afirmação"
             }
-            
+        ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Considerando essas ações, qual delas você acredita que pode gerar o maior impacto imediato na proteção da Amazônia?",
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
@@ -40,7 +33,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Para enfrentar o impacto do desmatamento e da violência na Amazônia, qual você considera o maior desafio: reverter os danos ambientais já causados ou garantir a segurança e os direitos das populações locais?",
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
@@ -53,7 +46,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Considerando a complexa relação entre o desmatamento e a violência, qual estratégia de contribuição individual pode ter o impacto mais amplo na Amazônia?",
         alternativas: [
             {
                 texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
@@ -66,7 +59,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "O ano é 2049, e o que restou da Amazônia é um lembrete sombrio de como a ganância e a negligência podem destruir um ecossistema. A floresta, que já foi um símbolo de vida, hoje é um fantasma de si mesma, um cenário de pesadelo que se tornou realidade.A violência contra povos indígenas e defensores da floresta atingiu níveis inimagináveis. A impunidade se tornou a regra, permitindo que o crime organizado transformasse a Amazônia em um campo de batalha, onde a lei do mais forte prevalece",
         alternativas: [
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
@@ -119,4 +112,3 @@ function mostraResultado() {
 }
 
 mostraPergunta();
-        
